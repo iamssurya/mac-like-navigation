@@ -1,0 +1,26 @@
+{
+  "name": "mac-like-navigation",
+  "version": "0.0.1",
+  "description": "Create mac like navigation bar for websites",
+  "main": "index.html",
+  "keywords": [
+    "navigation",
+    "menu",
+    "mac",
+    "website"
+  ],
+  "authors": [
+    "surya"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~3.1.0"
+  }
+}
