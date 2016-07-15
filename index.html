@@ -2,13 +2,33 @@
 <html>
 <head>
 	<title>Mac like navigation</title>
+	<link rel="stylesheet" type="text/css" href="lib/font-awesome-4.6.3/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="css/mac-like-navigation.css" />
+
+	<link rel="stylesheet" href="style.css" />
 </head>
 <body>
 	<div id="mac-navigation"></div>
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script type="text/javascript" src="js/mac-like-navigation.js"></script>
 	<script>
-		new maclikeNav('mac-navigation');
+		var data = [
+			{
+				icon: 'font-awesome',
+				icontype:'arrows',
+				link: 'next.html'
+
+			},
+			{
+				icon: 'font-awesome',
+				icontype:'bell',
+				link: 'previous.html'
+
+			}
+		];
+
+		
+		new maclikeNav('mac-navigation',data);
 	</script>
 </body>
 </html>

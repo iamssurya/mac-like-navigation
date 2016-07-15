@@ -1,0 +1,8 @@
+.macnav{
+	position: fixed;
+	bottom: 2px;
+	left: 30%;
+	height: 100px;
+	width:auto;
+	background: rgba(255,255,255,0.7);
+}
